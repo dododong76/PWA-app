@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="top">top</div>
+    <div id="middle">
+        <div id="left">
+            <button class="btn" data-number="2">2단</button>
+            <button class="btn" data-number="3">3단</button>
+            <button class="btn" data-number="4">4단</button>
+            <button class="btn" data-number="5">5단</button>
+            <button class="btn" data-number="6">6단</button>
+            <button class="btn" data-number="7">7단</button>
+            <button class="btn" data-number="8">8단</button>
+            <button class="btn" data-number="9">9단</button>
+        </div>
+        <div id="center">center</div>
+        <div id="right">right</div>
+    </div>
+    <div id="bottom">bottom</div>
+
+
+    <script src="main.js"></script>
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker
+                .register('./service_worker.js')
+                .then(function () {
+                    console.log('서비스 워커가 등록됨!');
+                })
+        }
+    </script>
+
+</body>
+
+</html>

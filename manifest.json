@@ -1,0 +1,17 @@
+{
+  "name": "김동은의 첫 PWA",
+  "short_name": "first PWA",
+  "description": "PWA",
+  "scope": ".",
+  "display": "fullscreen",
+  "orientation": "portrait",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "icons": [
+    {
+      "src": "./icon.png",
+      "sizes": "406x412",
+      "type": "image/png"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+#top {
+  background-color: pink;
+  height: 10vh;
+}
+
+#middle {
+  background-color: aquamarine;
+  height: 76vh;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+
+#left,
+#right,
+#center {
+  border: 5px rgb(25, 8, 8) solid;
+}
+#center {
+  font-size: 30px;
+  text-align: center;
+}
+
+#bottom {
+  background-color: rgb(127, 225, 255);
+  height: 10vh;
+}
+
+button {
+  display: block;
+  font-size: 20px;
+  margin: 10px;
+}
