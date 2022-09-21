@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>구구단</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="shortcut icon" href="icon.png">
     <!-- <link rel="icon" type="image/png" sizes="200x200" href="icon.png"> -->
     <!-- <link rel="icon" type="image/png" sizes="200x200" href="icon.png"> -->
@@ -14,25 +16,47 @@
 </head>
 
 <body>
-    <div id="top">소연이를 위한 구구단 프로그램입니다.</div>
-    <div id="middle">
-        <div id="left">
-            <button class="btn" data-number="2">2단</button>
-            <button class="btn" data-number="3">3단</button>
-            <button class="btn" data-number="4">4단</button>
-            <button class="btn" data-number="5">5단</button>
-            <button class="btn" data-number="6">6단</button>
-            <button class="btn" data-number="7">7단</button>
-            <button class="btn" data-number="8">8단</button>
-            <button class="btn" data-number="9">9단</button>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
         </div>
-        <div id="center">center</div>
-        <div id="right">right</div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F408%2F2021%2F12%2F10%2F0000140874_024_20211210084703647.jpg&type=sc960_832"
+                    class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F5339%2F2021%2F12%2F01%2F0000245511_008_20211201170202544.jpg&type=sc960_832"
+                    class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTEyMTBfMzkg%2FMDAxNjM5MTE0NDc1Mzg5.77mTo5SINb4u2PdJn6gd8yENoWaEjWFnOX4SvejziSkg.9kEAos9MRHwJ4QvdJyGMzdDtUssoLxVDrtGAh67gMVUg.JPEG.labeaute0709%2FPicsArt%25A3%25DF12%25A3%25AD10%25A3%25AD02.30.39.jpg&type=sc960_832"
+                    class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
     </div>
-    <div id="bottom">아빠가 만들었어요</div>
 
 
-    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+
+
     <script>
         if ('serviceWorker' in navigator) {
             navigator.serviceWorker

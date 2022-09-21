@@ -1,6 +1,6 @@
 {
-  "name": "소연이의 구구단",
-  "short_name": "소연이의 구구단",
+  "name": "김동은의 첫번째 PWA앱",
+  "short_name": "김동은의 첫번째 PWA앱",
   "description": "PWA",
   "scope": ".",
   "start_url": "./",
